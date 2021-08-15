@@ -14,10 +14,10 @@ class Rectangle extends Shape
    
 	 double b;
     
-	Rectangle(double x,double y)
+	 Rectangle(double x,double y)
 	{
       
-	  l=x;
+	     l=x;
    
 	     b=y;
   
@@ -34,7 +34,7 @@ void findArea()
 class Square extends Shape
 {
    
- double a;
+   double a;
  
    Square(double x)
 	{
@@ -54,7 +54,7 @@ void findArea()
 class Circle extends Shape
 {
   
-  double r;
+   double r;
  
    Circle(double x)
 {
@@ -71,44 +71,44 @@ void findArea()
  }
 }
 
-class Oop2_5 
+class area_abstract_method
 {
   
   public static void main(String[] args)
  {
         
-Scanner sc=new Scanner(System.in);
+     Scanner sc=new Scanner(System.in);
    
      double x,y;
       
   
-        System.out.println("Enter the length and breadth of rectangle : ");
+     System.out.println("Enter the length and breadth of rectangle : ");
   
-      x=sc.nextDouble();
+     x=sc.nextDouble();
    
      y=sc.nextDouble(); 
    
      Rectangle rec=new Rectangle(x, y);
         
-rec.findArea();
+    rec.findArea();
     
     System.out.println("Enter the length of square : ");
        
- x=sc.nextDouble();
+    x=sc.nextDouble();
  
-       Square s=new Square(x);
+    Square s=new Square(x);
   
-      s.findArea();
+    s.findArea();
     
     System.out.println("Ether the radius of circle : ");
      
-   x=sc.nextDouble();
+    x=sc.nextDouble();
     
     Circle c=new Circle(x);
      
-   c.findArea();
+    c.findArea();
    
-     sc.close();
+    sc.close();
    
  }   
  

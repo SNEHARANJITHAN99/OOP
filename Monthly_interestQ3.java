@@ -40,7 +40,7 @@ return annualInterestRate;
 
 
 
-class Oop2_3
+class Monthly_interestQ3
 
 {
 

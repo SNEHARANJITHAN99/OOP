@@ -88,55 +88,55 @@ class Square extends Figure
 	   }
 }
 
-class Oop2_4
+class area_method_overriding
  {
 
     public static void main(String[] args) 
 	{
       
-	  Scanner sc=new Scanner(System.in);
+	    Scanner sc=new Scanner(System.in);
     
 	    double a,l,b,r;
       
-	  System.out.println("Enter the dimentions of Rectangle : ");
+	    System.out.println("Enter the dimentions of Rectangle : ");
    
-	     l=sc.nextInt();
+	    l=sc.nextInt();
     
 	    b=sc.nextInt();
     
 	    System.out.println("Enter the dimentions of Square : ");
   
-	      a=sc.nextInt();
+	    a=sc.nextInt();
      
-	   System.out.println("Enter the dimentions of Circle : ");
+	    System.out.println("Enter the dimentions of Circle : ");
     
 	    r=sc.nextInt();
    
-	     Figure f=new Figure(a, b);
+	    Figure f=new Figure(a, b);
    
-	     Rectangle rec=new Rectangle(l, b);
+	    Rectangle rec=new Rectangle(l, b);
       
-	  Square s=new Square(a, a);
+	   Square s=new Square(a, a);
   
-	      Circle c=new Circle(r, r);
+	   Circle c=new Circle(r, r);
     
-	    Figure fig;
+	   Figure fig;
    
-	     fig=rec;
+	   fig=rec;
      
 	   System.out.println("Area is " + fig.area());
     
-	    fig=s;
+	   fig=s;
      
 	   System.out.println("Area is " + fig.area());
    
-	     fig=c;
+           fig=c;
      
 	   System.out.println("Area is " + fig.area());
     
-	    fig=f;
+	   fig=f;
   
-	      System.out.println("Area is " + fig.area());
+           System.out.println("Area is " + fig.area());
      
 	   sc.close();
  
